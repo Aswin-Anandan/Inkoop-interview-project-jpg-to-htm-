@@ -1,0 +1,420 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height:60px;
+	justify-content: space-between;
+	
+}
+.toggle{
+	margin-top: -10px;
+	margin-left: 20px;
+	width:40px;
+	height: 40px;
+	display:none;
+}
+a{
+	text-decoration: none;
+	color: black;
+	margin-left: 20px;
+	transition: 0.5s;
+	
+}
+a:hover{
+	font-size: 20px;
+	color: white;
+	background: rgba(22,37,63,0.8);
+	padding:10px;
+}
+
+#links{
+
+	margin-right: 40px;
+	font-weight: 600;
+	
+}
+
+
+.brand{
+	font-size: 40px;
+	font-weight: 600;
+	display: flex;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.brand::after{
+	margin-top: 30px;
+	content: "";
+	background:rgba(42,30,118,1.00);
+	width:7px;
+	height: 7px;
+	border-radius: 50%;
+}
+::placeholder{
+	color:grey;
+	position: relative;
+	left: 30px;
+	font-size: 20px;
+}
+.searchbar::before{
+	margin-left: 10px;
+	content: "";
+	width:20px;
+	height:20px;
+	background-image: url("https://img.icons8.com/ios-glyphs/30/000000/search--v1.png");
+	background-position: center;
+	background-size: cover;
+}
+input{
+	margin-left: -28px;
+	border:none;
+	border-radius:50px;
+	height: 35px;
+	background:transparent;
+	
+	
+}
+.searchbar{
+	display: flex;
+	background:rgba(203,198,198,1.00);
+	border-radius:40px;
+	align-items: center;
+	
+}
+#blue{
+    color:rgba(21,65,111,1.00); 
+	
+}
+.section1 .p1{
+	margin-top: 100px;
+	width:100%;
+	height:350px;
+	font-size: 35px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align: center;
+	align-items: center;
+	
+}
+.section1 h5{
+	color: grey;
+	margin-top: 15px;
+	
+}
+button{
+	padding: 20px 50px;
+	font-size: 18px;
+	background-color:rgba(21,65,111,1.00);  
+	border: none;
+	border-radius: 10px;
+	margin-top: 20px;
+	color: white;
+	transition: 0.5s;
+	}
+button:hover{
+	background: black;
+	transform: scale(1.2);
+}
+.section2{
+	width:100%;
+	height: 700px;
+}
+.image{
+	width:800px;
+	height: 500px;
+	background-image: url(https://images.unsplash.com/photo-1614400347767-52ef4d36fecb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	top:100px;
+	border-radius: 20px;	
+}
+.text{
+	width:500px;
+	height: 300px;
+	border-radius: 20px;
+	background: white;
+	box-shadow: 10px 10px 30px 10px grey;
+	overflow: hidden;
+	transition: 0.5s;
+}
+.text:hover{
+	transform: scale(1.3);
+}
+.text h3{
+	color:rgba(21,65,111,1.00); 
+	position: relative;
+	top:40px;
+	left:50px;
+}
+.text h1{
+	position: relative;
+	top:40px;
+	left:50px;
+	font-size: 40px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.text h4{
+	position: relative;
+	top:40px;
+	left:50px;
+	color: grey;
+	font-size: 18px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.section2-a{
+	position: relative;
+	top:-300px;
+	left: 700px;
+	height: 400px;
+	width:500px;
+}
+.logos{
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	justify-content:center;
+}
+.logos img{
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+	transition: 0.5s;
+}
+.logos img:hover{
+	transform: scale(1.3);
+}
+
+.section3{
+	background-color:rgba(21,65,111,1.00); 
+	border-radius: 15px;
+	width: 100%;
+	height: 550px;
+	color: white;
+}
+.section3-h{
+	text-align: center;
+	position:relative;
+	top:50px;
+}
+.section3-h h1{
+	font-size:40px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+}
+.gridelements{
+	margin-top: 50px;
+	display:grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 200px 200px;
+	
+}
+.gridelements .op{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 22px;
+	text-align: center;
+	transition: 0.5s;
+	
+}
+.gridelements .op:hover{
+	transform: scale(1.2);
+	
+}
+
+
+.op1{
+	margin-left: 30%;
+	background-image: url(https://static01.nyt.com/images/2016/12/14/arts/14braithwaite-obit/14braithwaite-obit-superJumbo.jpg?quality=75&auto=webp);
+	background-position: center;
+	background-size: cover;
+	margin-top: 20px;
+	width:120px;
+	height:120px;
+	border-radius: 50%;
+}
+.op2{
+	margin-left: 30%;
+	background-image: url(https://www.bl.uk/britishlibrary/~/media/bl/global/windrush/people%20and%20authors/ext/getty/photograph-of-andrea-levy-gettyimages-548140965.jpg?crop=1&cropX=0&cropY=31&cropW=1911&cropH=1075&cropcachekey=103119111075&w=608&h=342&dispW=608&dispH=342&hash=5CC8BB8754ED80F48A77B87857767D46);
+	background-position: center;
+	background-size: cover;
+	margin-top: 20px;
+	width:120px;
+	height:120px;
+	border-radius: 50%;
+}
+.op3{
+	margin-left: 30%;
+	background-image: url(https://media.npr.org/assets/img/2020/04/07/stephen-king.by-shane-leonard_wide-f9df986f26c8d66ecb63cf8e49bded6360cbd9d3-s800-c85.webp);
+	background-position: center;
+	background-size: cover;
+	margin-top: 20px;
+	width:120px;
+	height:120px;
+	border-radius: 50%;
+}
+.op4{
+	margin-left: 30%;
+	background-image: url(https://www.buscabiografias.com/img/people/Jorge_Amado.jpg);
+	background-position: top;
+	background-size: cover;
+	margin-top: 20px;
+	width:120px;
+	height:120px;
+	border-radius: 50%;
+}
+.op5{
+	margin-left: 30%;
+	background-image: url(https://freebooksummary.com/wp-content/uploads/2018/10/Gayle-Forman-IHA-023935.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-top: 20px;
+	width:120px;
+	height:120px;
+	border-radius: 50%;
+}
+.op6{
+	margin-left: 30%;
+	background-image: url(https://pbs.twimg.com/profile_images/1438707285610561537/flgEXI6m_400x400.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-top: 20px;
+	width:120px;
+	height:120px;
+	border-radius: 50%;
+}
+.op7{
+	margin-left: 30%;
+	background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-2000w,f_auto,q_auto:best/newscms/2020_26/3155921/191219-j-k-rowling-2018-ac-845p.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-top: 20px;
+	width:120px;
+	height:120px;
+	border-radius: 50%;
+}
+.op8{
+	margin-left: 30%;
+	background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2015%2F06%2Fjohn-green_0-2.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-top: 20px;
+	width:120px;
+	height:120px;
+	border-radius: 50%;
+}
+
+@media (max-width:1300px){
+	.section2-a{
+		top:-250px;
+	left: 600px;
+		
+	}
+}
+@media (max-width:1200px){
+	.section2-a{
+		top:-200px;
+	left: 500px;
+		
+	}
+}
+@media (max-width:1100px){
+	.section2-a{
+		top:-150px;
+	left: 400px;
+		
+	}
+	.section3{
+		margin-top: 100px;
+	}
+	
+
+}
+@media (max-width:1000px){
+	.section2-a{
+		top:-100px;
+	left: 300px;
+		
+	}
+}
+@media (max-width:900px){
+	.section2-a{
+		top:-50px;
+	left:200px;
+		
+	}
+	
+	.section3{
+		margin-top: 200px;
+		height: 950px;
+	}
+	.gridelements{
+	
+	grid-template-columns: 50% 50% ;
+	grid-template-rows: 200px 200px 200px 200px;
+	
+}
+}
+@media (max-width:750px){
+	.section3{
+		margin-top: 200px;
+		height: 2400px;
+	}
+	.gridelements{
+	
+	grid-template-columns: 100% ;
+	grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px;
+	
+}
+	.op1,.op2,.op3,.op4,.op5,.op6,.op7,.op8{
+		margin-left: 40%;
+	}
+	.toggle{
+	    display: block;
+		margin-left: 30px;
+		margin-right: 100px;
+	}
+
+	#links{
+	display:none;
+	position:relative;
+	left: -350px;
+	top:60px;	
+}
+}
+
+@media (max-width:800px){
+	.section2-a{
+		top:-50px;
+	left:50px;
+		
+	}
+	.image{
+	width:600px;
+	}
+}
+@media (max-width:560px){
+	.section1 h5{
+		display: none;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
